@@ -1,0 +1,101 @@
+@font-face{
+	font-family:'Overseer Bold Italic';
+	src:url('fonts/Overseer Bold Italic.otf');
+}
+a, a:visited {
+	font-size:1.3em;
+	text-decoration:none;
+	color: #000000;
+}
+
+a:hover {
+	color: #DBA901;
+}
+.titles{
+	color: #DBA901;
+	font-family:'Overseer Bold Italic';
+	src:url('fonts/Overseer Bold Italic.otf');
+	float:none;
+}
+
+.heading{
+	color: #000000;
+	font-family:'Overseer Bold Italic';
+	src:url('fonts/Overseer Bold Italic.otf');
+	float:none;
+}
+
+body{
+	background-image:url("images/BG_Green-2200.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.container{
+	width:960px;
+	margin:auto;
+	background-image: url("images/BG_Lone-60.png");
+	background-repeat: no-repeat;
+	border-color: #DF3A01;
+	color: #000000;
+	
+}
+.nav{
+	width:940px;
+	height:50px;
+	float:left;
+	background-image: url("images/BG_nav2.png");
+	border-color: #0000FF;
+	margin:10px;
+
+}
+
+.nav li{
+	display:inline;
+	padding-right:97px;
+
+}
+
+.banner{
+	background-image:url("images/Banner.png");
+	background-repeat: no-repeat;
+	width:960px;
+	height:300px;
+	float:left;
+}
+.col1{
+	width:600px;
+	margin:10px;
+	padding:10px;
+	float:left;
+
+}
+.col2{
+	width:600px;
+	margin:10px;
+	padding:10px;
+	
+
+}
+
+.col3{
+	width:920px;
+	margin:10px;
+	padding:10px;
+	float:right;
+
+
+}
+
+}
+.footer{
+	float:none;
+	clear:both;
+}
+
+.music{
+	background-image: ("images/vaultboy.png");
+	width: 250px;
+	height: 50px;
+	float: left;
+}
+
