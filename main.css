@@ -38,7 +38,10 @@ body{
 	border-color: #DF3A01;
 	color: #000000;
 	
-}
+/* ////////////////////////////////////////NAVIGATION BAR////////////////////////////////////////////////////////////// */
+
+
+
 .nav{
 	width:940px;
 	height:50px;
@@ -51,9 +54,47 @@ body{
 
 .nav li{
 	display:inline;
-	padding-right:97px;
+	padding-right:1px;
 
 }
+
+.nav li a:link, .nav li a:visited {
+	text-decoration: underline;
+	padding: 0.01em 2em;
+	margin: 0;
+	border-right: 1px solid #fff;
+	color: #ffff55;
+}
+
+.nav li a:hover {
+	background-color:#FF0000;	
+}
+
+/*style the sub menu*/
+.nav li ul {
+	position:fixed;
+	visibility:hidden;
+	border-top:1px solid #fff;
+	margin:0;
+	padding:0;
+}
+
+.nav li ul li {
+	display:inline;
+	float:none;
+}
+
+.nav li ul li a:link, .nav li ul li a:visited {
+	background-color:#09F;
+	width:auto;
+}
+
+.nav li ul li a:hover {
+	background-color:#0CF;	
+}
+
+
+/* ////////////////////////////////////////FALLOUT BANNER////////////////////////////////////////////////////////////// */
 
 .banner{
 	background-image:url("images/Banner.png");
