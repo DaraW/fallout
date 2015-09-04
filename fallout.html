@@ -4,6 +4,25 @@
 	<meta charset="UTF-8">
 	<title>Fallout</title>
 	<link href="main.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="jquery.js"></script>
+
+	<script type="text/javascript">
+	$(document).ready(function() {
+		
+		$('.nav > li').bind('mouseover', openSubMenu);
+
+		function openSubMenu() {
+			$(this).find('ul').css('visibility', 'visible');
+		
+		};
+		
+		function closeSubMenu() {
+			$(this).find('ul').css('visibility', 'hidden');	
+		};
+
+
+	});
+</script>
 </head>
 <body>
 	
@@ -13,11 +32,17 @@
 		<div class="nav">
 			<ul>
 				<li><a href="index.html">HOME</a></li>
-				<li><a href="Fallout.html">FALLOUT GAMES</a></li>
-				<li><a href="Fallout2.html">MEDIA</a></li>
-				<li><a href="Fallout3.html">POPULAR CULTURE</a></li>
+				<li><a href="fallout.html">FALLOUT GAMES</a>
+					<ul><a href="fallout.html">FALLOUT</a></ul>
+					<ul><a href="fallout2.html">FALLOUT 2</a></ul>
+					<ul><a href="fallout3.html">FALLOUT 3</a></ul>
+					<ul><a href="falloutnv.html">FALLOUT NEW VEGAS</a></ul>
+				</li>
+				<li><a href="media.html">MEDIA</a></li>
+				<li><a href="popCulture.html">POPULAR CULTURE</a></li>
 			</ul>
 		</div>
+		
 		<h1 class="titles">Fallout</h1>
 
 		<div class="col1">
